@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-clas-name: com.mysql.cj.jdbc.Driver
+    password: escuela_ingles
+    url: jdbc:mysql://escuela_ingles/escuela_ingles?serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
